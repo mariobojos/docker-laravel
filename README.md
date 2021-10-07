@@ -38,11 +38,7 @@ DB_PASSWORD=secret
 - Be sure to shutdown the docker containers after you end your coding session by
 <pre>$ docker-compose down</pre>
 
-<<<<<<< HEAD
 ### Note 2:
-=======
-###Note 2:
->>>>>>> 5ce5b1b52b1c3d1fd9158bce05df9f17beddf9ad
 - You can change the port numbers in docker-compose.yml file.
 - Restart the containers with <code>$ docker-compose restart</code>
 
