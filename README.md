@@ -12,5 +12,5 @@ This project are pre-configured docker containers geared towards Laravel 8 web d
 </pre>
 
 ## Source
-Project was based on video tutorial uplooded in YouTube: https://www.youtube.com/watch?v=5N6gTVCG_rw.
+Project was based on a video tutorial uploaded in YouTube: https://www.youtube.com/watch?v=5N6gTVCG_rw.
 
