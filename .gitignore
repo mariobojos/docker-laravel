@@ -13,5 +13,5 @@
 /scr/yarn-error.log
 /.idea
 /.vscode
-/mysql/ib_**
+/mysql/ibdata1
 /mysql/ib*
