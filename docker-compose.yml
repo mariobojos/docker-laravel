@@ -2,11 +2,18 @@ version: '3.9'
 
 # Source: https://www.youtube.com/watch?v=5N6gTVCG_rw
 # alias artisan="docker-compose exec php php /var/www/html/artisan"
+# Run: docker-compose run nodejs npm --version to verify if node and npm works
 
 networks:
   laravel:
 
 services:
+  nodejs:
+    image: node:16-alpine
+    container_name: nodejs
+    networks:
+      - laravel
+
   nginx:
     image: nginx:stable-alpine
     container_name: nginx
