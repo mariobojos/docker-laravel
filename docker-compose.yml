@@ -9,8 +9,13 @@ networks:
 
 services:
   nodejs:
-    image: node:16-alpine
+    build:
+      context: .
+      dockerfile: Dockerfilenodejs
     container_name: nodejs
+    volumes:
+      - ./src:/home/node/app
+      - ./src/node_modules:/home/node/app/node_modules
     networks:
       - laravel
 
